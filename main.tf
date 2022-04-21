@@ -18,8 +18,8 @@ resource "aws_vpc" "hashicat" {
   tags = {
     name = "${var.prefix}-vpc-${var.region}"
     environment = "Production"
-    devops = "aws_instance"
-    billable = "true"
+    Department = "aws_instance"
+    Billable = "true"
   }
 }
 
